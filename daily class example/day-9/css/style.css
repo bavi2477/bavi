@@ -1,0 +1,24 @@
+/* external css */
+
+p {
+    width: 50vw;
+    background-color: blueviolet;
+
+}
+
+body {
+    /* width: 50%;
+    height: 50%; */
+    color: aquamarine;
+    background: linear-gradient(red, blueviolet, green);
+    /* border : border-width border-style border-color */
+    border : 5px dashed yellowgreen;
+    /* border-bottom : border-bottom-width border-bottom-color border-bottom-style */
+
+    border-bottom: 10px double violet;
+}
+
+/* id has more priority than class */
+/* if we want something to apply we have to provide !important  */
+
+/* if we use display : inline we cant give height or width it will not accept so we have to use inline-block */

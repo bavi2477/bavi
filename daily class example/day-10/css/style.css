@@ -1,0 +1,22 @@
+div {
+    width: 50vw;
+    height: 50vh;
+    background-color: blue;
+    border: 5px solid black;
+}
+
+div:hover {
+    background-color: red;
+}
+
+div:active {
+    background-color: green;
+}
+
+input:focus {
+    background-color: aqua;
+}
+
+input:hover {
+    background-color: chartreuse;
+}

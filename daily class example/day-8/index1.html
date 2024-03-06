@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+</head>
+<body>
+    <div>
+        <form>
+            <h3>Say <span>Hello</span></h3>
+            <p>Feel free to stop by and say hi !</p>
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+            </div>
+            <div>
+                <label for="email">Email Id:</label>
+                <input type="email" name="email" id="email" required> 
+            </div>
+            <div>
+                <!-- for and id name should be same -->
+                
+                <input type="radio" name="gender" id="male" />
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="female" />
+                <label for="female">Female</label>
+                <input type="radio" name="gender" id="trangender" />
+                <label for="transgender">Transgender</label>
+                <input type="radio" name="gender" id="others" />
+                <label for="others">Others</label>
+                
+            </div>
+            <div>
+                <label for="phone">Contact Number :</label>
+                <input type="number" id="phone" name="phone" required>
+            </div>
+            <div>
+                <label for="subject">Subject</label>
+                <input type="text" name="subject" id="subject" required>
+            </div>
+            <div>
+                <input type="submit" value="Send">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
