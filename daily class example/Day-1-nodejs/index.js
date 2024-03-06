@@ -17,5 +17,5 @@ app.get('/get-data', (req,res) => {
 
 //running 
 app.listen(PORT, () => {
-    console.log(`App i running in the port  ${PORT}`);
+    console.log(`App i running in the port = ${PORT}`);
 }) 
